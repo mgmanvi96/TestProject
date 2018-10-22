@@ -23,6 +23,7 @@ public class MultipleButtons extends HttpServlet {
 	    String str1 = req.getParameter("a1");       //  AREA submit button
 	    String str2 = req.getParameter("p1");       //  PERIMETER submit button
 	    String str3 = req.getParameter("b1");		//EXIT submit button
+	    //Comment added
 	    sos.println("<h3>");
 	 
 	    if(str1 != null)                            // if AREA is clicked
